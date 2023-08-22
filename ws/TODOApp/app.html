@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <div>
+        <form id="todoForm">
+            <label>Task :</label>
+            <input id="task" placeholder="Enter Task">
+            <label>Priority :</label>
+            <select id="priority">
+                <option value="">Select Priority</option>
+                <option value="Low">Low</option>
+                <option value="High">High</option>
+            </select> 
+            <input type="submit"/>
+        </form>
+    
+        <table border="1">
+            <thead>
+                <th>Task</th>
+                <th>Priority</th>
+                <th>Delete</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+<script src='code.js'></script>
+
+<!-- tr has to be created when submit is clicked-->

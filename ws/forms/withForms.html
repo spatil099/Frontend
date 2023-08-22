@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form id="loginForm" >
+        <input id="username" type="text" placeholder="Enter Username"/>
+        <input id="password" type="password" placeholder="Enter Password"/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
+
+<script>
+    //Form by default sends data to backend so console logs will be there only for a second
+    document.querySelector('#loginForm').addEventListener('submit', function(){
+        event.preventDefault();
+        var userName = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        console.log(userName, password)
+
+        var head = document.createElement('h1');
+        head.innerText = userName;
+
+        var button = document.createElement('button');
+        button.innerText = 'Click';
+        button.addEventListener('click',function(){
+            console.log(event)
+            alert('Clicked')
+        })
+
+        // Adds head to document else it won't appear
+        document.querySelector('body').append(head);
+        document.querySelector('body').append(button);
+    })
+</script>
+
+<!-- createElement -> creates new elements-->
