@@ -1,0 +1,52 @@
+[
+    {
+        "id" : 1,
+        "name" : "Chevy",
+        "price" : 1500,
+        "year" : 1968,
+        "contact" :{
+            "dealer" : "SP",
+            "number" : "111-111-1111"
+        }
+    },
+    {
+        "id" : 2,
+        "name" : "Ford",
+        "price" : 15000,
+        "year" : 1968,
+        "contact" :{
+            "dealer" : "SP1",
+            "number" : "1121-111-1111"
+        }
+    },
+    {
+        "id" : 3,
+        "name" : "VW",
+        "price" : 1000,
+        "year" : 1968,
+        "contact" :{
+            "dealer" : "SP3",
+            "number" : "1132-111-1111"
+        }
+    },
+    {
+        "id" : 4,
+        "name" : "Kia",
+        "price" : 52200,
+        "year" : 2021,
+        "contact" :{
+            "dealer" : "SP2",
+            "number" : "111-111-1111"
+        }
+    },
+    {
+        "id" : 5,
+        "name" : "Audi",
+        "price" : 1500000,
+        "year" : 1967,
+        "contact" :{
+            "dealer" : "SP4",
+            "number" : "111-89111-1111"
+        }
+    }
+]
